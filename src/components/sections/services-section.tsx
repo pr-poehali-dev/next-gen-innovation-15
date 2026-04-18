@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Почему
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Причины галлюцинаций ИИ</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Предсказание токенов",
+              description: "ИИ генерирует текст по вероятности следующего слова — не по базе фактов. Убедительность ≠ точность.",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Нет доступа к реальности",
+              description: "Модель не «знает» мир — она выучила паттерны из текстов. Несуществующие факты звучат так же уверенно, как настоящие.",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Обрыв знаний",
+              description: "У каждой модели есть дата среза данных. Всё, что произошло после — ИИ либо не знает, либо домысливает.",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Давление на согласие",
+              description: "Модель стремится дать «полезный» ответ. Лучше придумать дату, чем сказать «не знаю» — так она обучена.",
               direction: "bottom",
             },
           ].map((service, i) => (
